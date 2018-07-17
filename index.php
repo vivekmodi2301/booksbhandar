@@ -1,0 +1,15 @@
+<?php
+session_start();
+error_reporting(0);
+include_once("config.php");
+include_once("function.php");
+include_once("header.php");
+$mod=page;
+$do=home;
+if(isset($_GET['mod'])){
+	$mod=$_GET['mod'];
+	$do=$_GET['do'];
+}
+include_once("module/$mod/$do.php");
+include_once("footer.php");
+?>

@@ -1,0 +1,140 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.main{
+	margin:0px auto;
+	height:100%;
+	width:80%;
+}
+.main .header{
+	height:60px;
+	width:100%;
+	background-color:#fff;
+}
+.main .middle{
+	background-color:#fff;
+}
+
+.main .middle .mlogin .login, .main .middle .msignin .login{
+	margin-top:8%;
+	margin-left:30%;
+				background:#fece00;
+				height:50px;
+				width:40%;
+				color:white;
+				font-size:26px;
+				
+				padding-left:15px;
+				padding-top:12px;
+			}
+			.main .middle .msignin table{
+				width:41.4%;
+				margin-left:30%;
+				border-left:3px solid #C24A4D;
+				border-top:3px solid #C24A4D;
+				border-right:3px solid #C24A4D;
+			}
+			.main .middle .msignin tr td,.main .middle .msignin tr th, .main .middle .msignin .form{
+				border-bottom:3px solid #31a3dd;
+				margin-left:30%;
+				width:40.5%;
+				padding-top:15px;
+			}
+			.main .middle .msignin tr th{
+				
+				width:20%;
+				color:#FC7572;
+				text-align:left;
+			}
+			.main .middle .msignin tr td img{
+				margin-bottom:5px;
+			}
+			.main .middle .msignin .login{
+				margin-top:5%;
+			}
+			input[type="text"]{
+				background-color:#fff;
+				color:#000;
+				width:260px;
+				margin-bottom:5px;
+				margin-left:10px;
+			}
+			input[type="password"]{
+				background-color:#fff;
+				color:#000;
+				width:260px;
+				margin-bottom:10px;
+				margin-left:10px;
+			}
+			input[type="radio"]{
+				margin-bottom:5px;
+				margin-left:10px;
+			}
+			input[type="file"]{
+				margin-bottom:5px;
+				margin-left:10px;
+			}
+			input[type="submit"]{
+				margin-left:165px;
+				background:#cadaf4;
+				width:70px;
+				height:35px;
+				margin-bottom:15px;
+			}
+			input[type="button"]{
+				background:#cadaf4;
+				width:70px;
+				height:35px;
+				
+			}
+			span{
+				padding-left:5px;
+				font-size:13px;
+			}
+			.main .middle .msignin #captchaimg{
+				margin-bottom:5px;
+				margin-left:10px;
+			}
+fieldset{
+	border:1px solid red;
+	display:blog;
+	color:red;
+	font-family: 'Dancing Script', 'cursive';
+	font-size:28px;
+	color:#be4b50;
+	font-weight:bold;
+	padding:5px 0px 10px 5px;
+	margin:0px 10px 10px 10px;
+	border-bottom:3px solid #eaeaea;
+}
+.main .middle fieldset table{
+	
+	margin-left:30px;
+	width:95%;
+}
+.main .middle fieldset table img{
+	height:100px;
+}
+.main .middle h1{
+	margin-left:15px;
+}
+.main .middle .read{
+	margin-left:15px;
+}
+.main .middle .signin table{
+	margin-left:30%;
+	padding:5px 0px 5px 10px;
+	margin-bottom:20px; 
+	text-align:left;
+	background: #e0e0e0; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#e0e0e0, white, #e0e0e0); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#e0e0e0, white, #e0e0e0); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#e0e0e0, white, #e0e0e0); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#e0e0e0, white, #e0e0e0); /* Standard syntax */
+	-webkit-box-shadow: 0 0 10px 10px #000;
+    -moz-box-shadow: 0 0 10px 10px #000;
+    box-shadow: 0 0 10px 10px #000;
+	color:black; 
+	font-size:20px; 
+}

@@ -1,0 +1,66 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.main{
+	margin:0px auto;
+	height:100%;
+	width:80%;
+}
+.main .header{
+	height:60px;
+	width:100%;
+	background-color:#fff;
+}
+.main .middle{
+	background-color:#fff;
+}
+.login{
+	margin-top:10%;
+	margin-left:25%;
+				background:#fece00;
+				height:50px;
+				width:40%;
+				color:white;
+				font-size:26px;
+				padding-left:15px;
+				padding-top:12px;
+			}
+			.form{
+				margin-left:25%;
+				width:40.5%;
+				background:#eeeeee;
+				padding-left:8px;
+				padding-top:15px;
+			}
+			input[type="text"]{
+				background-color:#ccc;
+				color:#363;
+				margin-left:22px;
+				width:260px;
+			}
+			input[type="password"]{
+				background-color:#ccc;
+				color:#363;
+				margin-left:32px;
+				margin-top:28px;
+				width:260px;
+			}
+			input[type="submit"]{
+				margin-top:35px;
+				margin-left:165px;
+				background:#cadaf4;
+				width:70px;
+				height:35px;
+				margin-bottom:15px;
+			}
+			input[type="reset"]{
+				background:#cadaf4;
+				width:70px;
+				height:35px;
+				
+			}
+			span{
+				padding-left:5px;
+				font-size:13px;
+			}
